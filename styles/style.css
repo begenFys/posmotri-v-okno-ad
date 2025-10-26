@@ -241,3 +241,34 @@ ol {
 	object-fit: fill;
 	object-position: center;
 }
+
+.button {
+	border: 1px solid #ffffff;
+	background: transparent;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	height: 34px;
+}
+
+.button:hover {
+	text-decoration: underline;
+}
+
+.button:active {
+	background: #545050;
+}
+
+.button:focus-visible {
+	outline: 1px solid #ffffff;
+	outline-offset: 2px;
+}
+
+.search-form__submit-button {
+	width: 194px;
+}
+
+.more-button {
+	margin-top: 30px;
+	width: 100%;
+}
