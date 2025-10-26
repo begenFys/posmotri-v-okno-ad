@@ -70,6 +70,7 @@ ol {
 }
 
 .result__video-container {
+	position: relative;
 	width: 711px;
 	height: 386px;
 }
@@ -191,6 +192,7 @@ ol {
 }
 
 .content__list-container {
+	position: relative;
 	width: 390px;
 	height: 298px;
 	overflow-x: hidden;
