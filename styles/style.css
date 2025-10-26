@@ -204,9 +204,32 @@ ol {
 	gap: 30px;
 }
 
+.content__list-item {
+	padding: 3px;
+}
+
 .content__card-link {
+	display: block;
 	text-decoration: none;
 	color: #ffffff;
+	background: transparent;
+}
+
+.content__card-link_current {
+	background: #545050;
+}
+
+.content__card-link:hover {
+	text-decoration: underline;
+}
+
+.content__card-link:active {
+	background: #545050;
+}
+
+.content__card-link:focus-visible {
+	outline: 1px solid #ffffff;
+	outline-offset: 2px;
 }
 
 .content__video-card {
@@ -215,6 +238,7 @@ ol {
 
 .content__video-card-description-container {
 	flex-grow: 1;
+	min-width: 0;
 	width: 198px;
 	height: 103px;
 }
@@ -225,6 +249,7 @@ ol {
 	text-transform: uppercase;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .content__video-card-description {
