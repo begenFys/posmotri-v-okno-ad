@@ -105,6 +105,7 @@ ol {
 	display: flex;
 	width: fit-content;
 	gap: 5px;
+	cursor: pointer;
 }
 
 .search-form__label-text {
@@ -145,9 +146,6 @@ ol {
 .search-form__checkbox-list {
 	display: flex;
 	gap: 15px;
-}
-
-.search-form__checkbox {
 }
 
 .search-form__pseudo-checkbox {
@@ -274,6 +272,7 @@ ol {
 	font-weight: bold;
 	color: #ffffff;
 	height: 34px;
+	cursor: pointer;
 }
 
 .button:hover {
