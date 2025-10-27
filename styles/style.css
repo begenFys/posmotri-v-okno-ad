@@ -57,13 +57,13 @@ ol {
 	display: grid;
 	gap: 30px;
 	grid-template-columns: repeat(2, max-content);
-	grid-template-areas: "result result content-details";
+	/* grid-template-areas: "result result content-details"; */
 	align-items: end;
 	width: 1140px;
 }
 
 .result {
-	grid-area: result;
+	/* grid-area: result; */
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
@@ -172,7 +172,7 @@ ol {
 }
 
 .content__details {
-	grid-area: content-details;
+	/* grid-area: content-details; */
 	width: 100%;
 	height: 100%;
 	display: flex;
